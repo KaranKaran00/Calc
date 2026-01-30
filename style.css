@@ -1,3 +1,12 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(156, 154, 151);
+
+}
 #calculator{
     font-family: Arial, sans-serif;
     background-color: black;
@@ -30,4 +39,22 @@ button{
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover{
+    background-color: rgb(209, 30, 30);
+}
+button:active{
+    background-color: rgb(240, 3, 3);
+}
+.operator-btn{
+    background-color: rgb(255, 51, 0);
+
+}
+.operator-btn:hover{
+    background-color: rgb(200, 51, 0);
+
+}
+.operator-btn:active{
+    background-color: rgb(245, 38, 0);
+
 }
